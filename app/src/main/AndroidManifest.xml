@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="silvio.com.contarestaurante" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".TutorialActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>>
+        </activity>
+
+        <activity
+            android:name=".MostraCardapioActivity"
+            android:label="@string/title_activity_mostra_cardapio">
+        </activity>
+
+        <activity
+            android:name=".CadastroCardapioActivity"
+            android:label="@string/title_activity_cadastra_cardapio" >
+        </activity>
+
+        <activity
+            android:name=".CadastroIntegranteActivity"
+            android:label="@string/title_activity_cadastra_integrante" >
+        </activity>
+
+        <activity
+            android:name=".MostraIntegranteActivity"
+            android:label="@string/title_activity_mostra_integrante">
+        </activity>
+
+        <activity
+            android:name=".PedidoActivity"
+            android:label="@string/title_activity_pedidos">
+        </activity>
+
+        <activity
+            android:name=".ContaActivity"
+            android:label="@string/title_activity_conta">
+        </activity>
+
+        <activity
+            android:name=".MostraPedidosActivity"
+            android:label="@string/title_activity_conta" >
+        </activity>
+    </application>
+
+</manifest>

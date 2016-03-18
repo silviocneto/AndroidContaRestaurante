@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/menu_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_menu_menu">
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/order_menu_button"
+            android:background="@drawable/menu_off"
+            android:contentDescription="@string/imagebutton_description"/>
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/order_people_button"
+            android:background="@drawable/people_off"
+            android:contentDescription="@string/imagebutton_description"/>
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/order_order_button"
+            android:background="@drawable/orders_on"
+            android:contentDescription="@string/imagebutton_description"/>
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/order_bill_button"
+            android:background="@drawable/bill_off"
+            android:contentDescription="@string/imagebutton_description"/>
+    </LinearLayout>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_itens"
+        android:layout_below="@+id/escolher_pedido_TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/escolher_pedido"
+        android:textColor="#ffff"
+        android:id="@+id/escolher_pedido_TextView"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/quem_vai_consumir"
+        android:textColor="#ffff"
+        android:id="@+id/QuemVaiConsumir_TextView"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/quem_consome_listview"
+        android:layout_below="@+id/QuemVaiConsumir_TextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fazerpedido_button"
+        android:id="@+id/salvarpedido_button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/escolher_pedido_TextView"
+        android:layout_alignEnd="@+id/escolher_pedido_TextView"
+        android:layout_marginBottom="80dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/quantity_TextView"
+        android:textColor="#fff"
+        android:layout_above="@+id/salvarpedido_button"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/split_checkBox"
+        android:textColor="#ffff"
+        android:id="@+id/split_checkBox"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/escolher_pedido_TextView"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/viewOrders_Button"
+        android:id="@+id/viewOrders_button"
+        android:layout_alignTop="@id/salvarpedido_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Conta Restaurante</string>
+    <string name="action_settings">Settings</string>
+    <string name="Preco_item_cardapio">PREÇO(R$)</string>
+    <string name="Nome_item_cardapio">NOME</string>
+    <string name="save_button">Salvar</string>
+    <string name="add_button">+</string>
+    <string name="preco_item_EditText">PREÇO</string>
+    <string name="nome_item_EditText">NOME</string>
+    <string name="title_activity_mostra_cardapio">Cardapio</string>
+    <string name="title_activity_mostra_integrante">Participantes</string>
+    <string name="title_activity_cadastra_cardapio">Adicionar Item</string>
+    <string name="title_activity_cadastra_integrante">Adicionar Participante</string>
+    <string name="title_activity_menu">Menu Principal</string>
+    <string name="title_activity_pedidos">Fazer Pedido</string>
+    <string name="Add_Integrante_EditText">NOME</string>
+    <string name="name_EditText">NOME</string>
+    <string name="gocardapio">CARDAPIO</string>
+    <string name="gointegrantes">INTEGRANTES</string>
+    <string name="gopedidos">FAZER PEDIDO</string>
+    <string name="goconta">CONTA</string>
+    <string name="escolher_pedido">ESCOLHA O ITEM</string>
+    <string name="quem_vai_consumir">QUEM VAI CONSUMIR?</string>
+    <string name="fazerpedido_button"> SALVAR PEDIDO</string>
+    <string name="title_activity_conta">CONTA</string>
+    <string name="split_checkBox">DIVIDIR</string>
+    <string name="service_checkBox">Adicionar 10% de serviço</string>
+    <string name="viewOrders_Button">VER PEDIDOS</string>
+    <string name="checkAll">TODOS</string>
+    <string name="imagebutton_description">BottomMenu_ImageButton</string>
+    <string name="deleteAll_orders">Apagar Todos</string>
+    <string name="finishTutorial">Iniciar</string>
+    <string name="tutorial">COMO USAR O APP \n
+                1) Adicione os itens a serem consumidos e devididos \n
+                \n
+                2) Adicione os integrantes que irão consumir e dividir os itens \n
+                \n
+                3) Faça um pedido de um item, marcando quem irá consumi-lo. Se clicar em DIVIDIR, esse item será
+                dividido entre os selecionado. Se não clicar em DIVIDIR, será contabilizado um item por pessoa.
+                Será apresentado no inferior da tela a quantidade de itens que serão contabilizados no total. \n
+                \n
+                4) Pronto! Clique em CONTA para saber quanto cada um deverá pagar.</string>
+
+
+
+</resources>

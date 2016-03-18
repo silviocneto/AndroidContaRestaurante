@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/layout1">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:id="@+id/viewOrders_ListView"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteAll_orders"
+        android:id="@+id/deleteAll_orders_button"
+        android:layout_below="@id/viewOrders_ListView"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

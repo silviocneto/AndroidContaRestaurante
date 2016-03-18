@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/menu_layout">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/listaparticipantes"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_button"
+        android:textSize="24sp"
+        android:id="@+id/abrecadastro_participantes"
+        android:layout_below="@+id/listaparticipantes"
+        android:layout_alignLeft="@+id/listaparticipantes"
+        android:layout_alignStart="@+id/listaparticipantes"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_menu_people">
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/people_menu_button"
+            android:background="@drawable/menu_off"
+            android:contentDescription="@string/imagebutton_description"/>
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/people_people_button"
+            android:background="@drawable/people_on"
+            android:contentDescription="@string/imagebutton_description"/>
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/people_order_button"
+            android:background="@drawable/orders_off"
+            android:contentDescription="@string/imagebutton_description"/>
+
+        <ImageButton
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:id="@+id/people_bill_button"
+            android:background="@drawable/bill_off"
+            android:contentDescription="@string/imagebutton_description"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/deleteAll_orders"
+        android:id="@+id/deletePeople_button"
+        android:layout_below="@+id/listaparticipantes"
+        android:layout_alignRight="@+id/listaparticipantes"
+        android:layout_alignEnd="@+id/listaparticipantes"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>
